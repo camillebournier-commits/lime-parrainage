@@ -1,0 +1,11 @@
+# robots.txt — lime-parrainage.fr
+# Autoriser tous les robots d'indexation
+
+User-agent: *
+Allow: /
+
+# Bloquer les ressources inutiles
+Disallow: /cdn-cgi/
+
+# Sitemap
+Sitemap: https://www.lime-parrainage.fr/sitemap.xml
