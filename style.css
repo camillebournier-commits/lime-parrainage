@@ -29,6 +29,32 @@
   --transition: 0.28s cubic-bezier(.4,0,.2,1);
 }
 
+/* ─── Bandeau non-affilié ─────────────────────────────── */
+.disclaimer-banner {
+  background: var(--forest);
+  border-bottom: 1px solid rgba(105,240,174,.15);
+  padding: 9px 0;
+  text-align: center;
+}
+
+.disclaimer-banner .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.disclaimer-banner__icon { font-size: .85rem; flex-shrink: 0; }
+
+.disclaimer-banner p {
+  font-size: .75rem;
+  color: rgba(255,255,255,.5);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.disclaimer-banner strong { color: rgba(255,255,255,.8); font-weight: 600; }
+
 /* ─── Reset ───────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
