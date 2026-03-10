@@ -47,7 +47,7 @@
 .disclaimer-banner__icon { font-size: .85rem; flex-shrink: 0; }
 
 .disclaimer-banner p {
-  font-size: .75rem;
+  font-size: 1rem;
   color: rgba(255,255,255,.5);
   line-height: 1.4;
   margin: 0;
