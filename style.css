@@ -135,7 +135,7 @@ sup { font-size: .6em; vertical-align: super; }
 /* ─── Hero ────────────────────────────────────────────────── */
 .hero {
   position: relative;
-  min-height: 80svh;
+  min-height: 90svh;
   display: flex;
   flex-direction: column;
   justify-content: center;
